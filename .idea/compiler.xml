@@ -11,6 +11,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="swagger-spring" target="1.7" />
+      <module name="swagger-spring.main" target="1.8" />
+      <module name="swagger-spring.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

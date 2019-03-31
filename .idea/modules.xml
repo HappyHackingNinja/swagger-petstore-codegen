@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/swagger-spring.iml" filepath="$PROJECT_DIR$/swagger-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swagger-spring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/swagger-spring.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swagger-spring.test.iml" filepath="$PROJECT_DIR$/.idea/modules/swagger-spring.test.iml" />
     </modules>
   </component>
 </project>
