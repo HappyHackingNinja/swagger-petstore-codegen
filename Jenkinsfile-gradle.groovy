@@ -9,7 +9,7 @@ pipeline {
             agent {
                 docker {
                     image 'gradle:jdk8-alpine'
-                    args '-v $HOME/.gradle:/home/gradle/.gradle'
+                    args '-v $HOME/.gradle/gradle.properties:/home/gradle/.gradle/gradle.properties'
                 }
             }
             steps {
@@ -22,7 +22,7 @@ pipeline {
                     agent {
                         docker {
                             image 'gradle:jdk8-alpine'
-                            args '-v $HOME/.gradle:/home/gradle/.gradle'
+                            args '-v $HOME/.gradle/gradle.properties:/home/gradle/.gradle/gradle.properties'
                         }
                     }
                     steps {
